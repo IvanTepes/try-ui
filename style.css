@@ -1,0 +1,41 @@
+.wrapper {
+  height: 100svh;
+}
+
+.header {
+  background-color: red;
+  height: 10svh;
+}
+
+.section {
+  background-color: blue;
+  height: calc(100% - 20svh);
+}
+
+.footer {
+  background-color: yellow;
+  height: 10svh;
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  .header {
+    background-color: red;
+    height: 15svh;
+  }
+
+  .section {
+    background-color: blue;
+    height: calc(100% - 30svh);
+  }
+
+  .footer {
+    background-color: yellow;
+    height: 15svh;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
